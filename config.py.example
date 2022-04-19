@@ -8,8 +8,8 @@ TelegramMirror = None
 
 # 修改为 钉钉群 机器人 Token 参考：https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq/26eaddd5
 # 不启用修改为 None
-PushToken = os.environ['DingTalkToken']
-PushKeyWord = os.environ['DingTalkWord']
+PushToken = None
+PushKeyWord = None
 
 # 如需启用，需要手动抓包获取 Token，不启用保持默认
 WeiboRef = None
@@ -26,7 +26,7 @@ Redis = os.environ['RedisUrl']
 
 # 微信 Server酱 push，获取 Token 参考：http://sc.ftqq.com/3.version
 # 不启用修改为 None
-WeixinToken = None
+WeixinToken = os.environ['SCT137875TbIlsYG9KBZ9hlgb02Z1FgvDJ']
 
 # 关注的城市，所有设置为 None
 # 其他设置为字符串即可，使用空格分割多个城市，比如
